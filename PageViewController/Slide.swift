@@ -6,4 +6,11 @@
 //  Copyright © 2018년 NIA. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class Slide: UIView {
+    
+    @IBOutlet weak var imgeView: UIImageView!
+    @IBOutlet weak var labelTitle: UILabel!
+    
+}
